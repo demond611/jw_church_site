@@ -1,8 +1,13 @@
-HOMEPAGE
-ABOUT
+HOME
 EVENTS
-MEDIA...PICTURES
+MEDIA
+ABOUT
 CONTACT
+
+
+http://getbem.com/introduction/
+https://webdesign.tutsplus.com/articles/an-introduction-to-the-bem-methodology--cms-19403
+
 
 
 HTTPS://WIREFRAME.CC screens
@@ -13,3 +18,7 @@ https://gyazo.com/150727a8364618d1de7543b71b246b0f
 
 Mobile Header/Navigation---https://wireframe.cc/dAxbRT
 https://gyazo.com/e5e4ec232b95bfd5213511904ce3bd30
+
+
+Home Page text area with footer---https://wireframe.cc/iVchuA
+https://gyazo.com/1232c55983a412db6eca694ea508e901

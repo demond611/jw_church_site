@@ -1,0 +1,8 @@
+{
+  "name": "jw_church_site",
+  "version": "1.0.0",
+  "description": "church website for jamie",
+  "dependencies": {
+    "normalize.css": "^8.0.0"
+  }
+}
