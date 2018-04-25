@@ -61,7 +61,8 @@ a {
 abbr[title] {
   border-bottom: none; /* 1 */
   text-decoration: underline; /* 2 */
-  text-decoration: underline dotted; /* 2 */
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted; /* 2 */
 }
 /**
  * Add the correct font weight in Chrome, Edge, and Safari.
@@ -273,3 +274,12 @@ template {
 	margin-left: 10em;
 	margin-right: 10em;
 }
+.footer {
+
+	margin-top: 30px;
+
+}
+.footer__footer-rule {
+		border-top: 2px solid black;
+		opacity: 0.5;
+	}
