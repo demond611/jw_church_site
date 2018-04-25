@@ -283,3 +283,22 @@ template {
 		border-top: 2px solid black;
 		opacity: 0.5;
 	}
+.footer__footer-links {
+		margin-top: 20px;
+	}
+.footer__site-links {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		text-align: center;
+
+	}
+.footer__site-links li {
+			display: inline;
+			padding: 5px;
+		}
+.footer__site-links li + li {
+			margin-left: 30px;
+		}
+.footer--uppercase { text-transform: uppercase; }
+.footer--smaller-text { font-size: smaller; }

@@ -28,5 +28,5 @@ gulp.task( 'watch', function () {
 // CSS INJECT FOR STYLES UPDATES
 gulp.task( 'cssInject', ['styles'], function () {
 	return gulp.src( './app/temp/styles/main.css' )
-	.pipe( browserSync.stream() );
+		.pipe( browserSync.stream() );
 });
