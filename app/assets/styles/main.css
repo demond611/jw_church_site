@@ -1,0 +1,5 @@
+/* imported files do not need .css ending */
+/* normalize.css calls package from node modules folder */
+
+@import "normalize.css";
+@import "modules/_container";
