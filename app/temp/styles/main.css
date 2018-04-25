@@ -1,0 +1,4 @@
+body {
+	-webkit-columns: 200px 2;
+	        columns: 200px 2;
+}
