@@ -3,7 +3,7 @@ watch = require('gulp-watch'),
 browserSync = require('browser-sync').create();
 
 
-gulp.task('watch', function () {
+gulp.task( 'watch', function () {
 
 	browserSync.init({
 		notify: false,
@@ -13,8 +13,20 @@ gulp.task('watch', function () {
 	});
 
 
-	watch('./app/**/*.html', function(){
+	watch( './app/**/*.html', function () {
 		browserSync.reload();
 	});
 
+
+	watch( './app/assets/styles/**/*.css', function () {
+		gulp.start('cssInject');
+	});
+
 });
+
+
+// CSS INJECT FOR STYLES UPDATES
+	gulp.task( 'cssInject', ['styles'], function () {
+		return gulp.src( './app/temp/styles/main.css' )
+		.pipe( browserSync.stream() );
+	});

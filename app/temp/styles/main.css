@@ -270,5 +270,6 @@ template {
   display: none;
 }
 .container {
-	
+	margin-left: 10em;
+	margin-right: 10em;
 }
