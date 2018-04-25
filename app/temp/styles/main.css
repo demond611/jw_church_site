@@ -365,6 +365,11 @@ body {
 	letter-spacing: 2px;
 }
 
+a {
+	text-decoration: none;
+	cursor: pointer;
+}
+
 .wrapper {
 	margin-left: 10em;
 	margin-right: 10em;
@@ -383,6 +388,7 @@ body {
 
 .footer__footer-links {
 		margin-top: 20px;
+		font-weight: 400;
 	}
 
 .footer__site-links {
