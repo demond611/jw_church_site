@@ -9,3 +9,8 @@ body {
 	color: $mainText;
 	letter-spacing: 2px;
 }
+
+a {
+	text-decoration: none;
+	cursor: pointer;
+}
