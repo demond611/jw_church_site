@@ -360,7 +360,9 @@ template {
 body {
 	font-family: 'Roboto', 'Helvetica', sans-serif;
 	font-size: 1rem;
+	font-weight: 300;
 	color: #333;
+	letter-spacing: 2px;
 }
 
 .wrapper {
