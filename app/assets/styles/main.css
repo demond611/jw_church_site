@@ -1,0 +1,10 @@
+/* imported files do not need .css ending */
+
+@import "normalize.css";
+
+/* normalize.css calls package from node modules folder */
+
+@import "base/_variables";
+@import "base/_global";
+@import "modules/_wrapper";
+@import "modules/_footer";
