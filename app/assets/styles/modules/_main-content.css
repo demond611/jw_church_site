@@ -1,0 +1,13 @@
+.main-content {
+
+	height: auto;
+
+	&__background {
+		background: $mainContent;
+		height: 100%;
+		padding: 20px;
+	}
+	&__header {}
+	&__sub-header {}
+	&__text {}
+}

@@ -8,9 +8,12 @@ body {
 	font-weight: 300;
 	color: $mainText;
 	letter-spacing: 2px;
+	background: $mainBg;
 }
 
 a {
 	text-decoration: none;
 	cursor: pointer;
 }
+
+h1,h2,h3,h4,h5,h6 { font-weight: 500;  }

@@ -1,6 +1,7 @@
 .footer {
 
 	margin-top: 30px;
+	padding-bottom: 30px;
 
 	&__footer-rule {
 		border-top: 2px solid black;

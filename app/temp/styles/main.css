@@ -363,12 +363,15 @@ body {
 	font-weight: 300;
 	color: #333;
 	letter-spacing: 2px;
+	background: gray;
 }
 
 a {
 	text-decoration: none;
 	cursor: pointer;
 }
+
+h1,h2,h3,h4,h5,h6 { font-weight: 500;  }
 
 .wrapper {
 	margin-left: 10em;
@@ -378,6 +381,7 @@ a {
 .footer {
 
 	margin-top: 30px;
+	padding-bottom: 30px;
 
 }
 
@@ -411,3 +415,20 @@ a {
 .footer--uppercase { text-transform: uppercase; }
 
 .footer--smaller-text { font-size: smaller; }
+
+.main-content {
+
+	height: auto;
+}
+
+.main-content__background {
+		background: white;
+		height: 100%;
+		padding: 20px;
+	}
+
+.main-content__header {}
+
+.main-content__sub-header {}
+
+.main-content__text {}
