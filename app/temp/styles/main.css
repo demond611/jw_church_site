@@ -419,16 +419,18 @@ h1,h2,h3,h4,h5,h6 { font-weight: 500;  }
 .main-content {
 
 	height: auto;
+
 }
 
 .main-content__background {
 		background: white;
+		box-shadow: 3px 3px 10px 0px black;
 		height: 100%;
 		padding: 20px;
 	}
 
 .main-content__header {}
 
-.main-content__sub-header {}
-
-.main-content__text {}
+.main-content__text {
+		line-height: 2;
+	}

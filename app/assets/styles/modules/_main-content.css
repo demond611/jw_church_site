@@ -4,10 +4,15 @@
 
 	&__background {
 		background: $mainContent;
+		box-shadow: 3px 3px 10px 0px black;
 		height: 100%;
 		padding: 20px;
 	}
+
 	&__header {}
-	&__sub-header {}
-	&__text {}
+
+	&__text {
+		line-height: 2;
+	}
+
 }
