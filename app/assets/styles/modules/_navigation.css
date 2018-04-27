@@ -1,0 +1,27 @@
+.navigation {
+	margin-bottom: 20px;
+
+	&__nav-list {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		text-align: center;
+	}
+
+	& li {
+		display: inherit;
+		padding: 5px;
+
+		@mixin atNavBreak {
+			display: inline;
+		}
+	}
+
+	& li + li {
+		margin-left: 0;
+
+		@mixin atNavBreak {
+			margin-left: 5em;
+		}
+	}
+}

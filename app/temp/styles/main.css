@@ -359,11 +359,11 @@ template {
 
 body {
 	font-family: 'Roboto', 'Helvetica', sans-serif;
-	font-size: 1rem;
+	font-size: 0.875em;
 	font-weight: 300;
 	color: #333;
 	letter-spacing: 2px;
-	background: gray;
+	background: #346188;
 }
 
 a {
@@ -374,20 +374,45 @@ a {
 h1,h2,h3,h4,h5,h6 { font-weight: 500;  }
 
 .wrapper {
-	margin-left: 10em;
-	margin-right: 10em;
+	margin-left: 1rem;
+	margin-right: 1rem;
 }
+
+@media (min-width: 530px) {
+
+.wrapper {
+		margin-left: 3rem;
+		margin-right: 3rem
+}
+	}
+
+@media (min-width: 1024px) {
+
+.wrapper {
+		margin-left: 6rem;
+		margin-right: 6rem
+}
+	}
+
+@media (min-width: 1200px) {
+
+.wrapper {
+		margin-left: 10rem;
+		margin-right: 10rem
+}
+	}
 
 .footer {
 
 	margin-top: 30px;
 	padding-bottom: 30px;
+	color: white;
 
 }
 
 .footer__footer-rule {
-		border-top: 2px solid black;
-		opacity: 0.5;
+		border-top: 2px solid white;
+		opacity: 0.3;
 	}
 
 .footer__footer-links {
@@ -404,13 +429,27 @@ h1,h2,h3,h4,h5,h6 { font-weight: 500;  }
 	}
 
 .footer__site-links li {
-			display: inline;
+			display: inherit;
 			padding: 5px;
 		}
 
-.footer__site-links li + li {
-			margin-left: 5em;
+@media (min-width: 700px) {
+
+.footer__site-links li {
+				display: inline
 		}
+	}
+
+.footer__site-links li + li {
+			margin-left: 0;
+		}
+
+@media (min-width: 700px) {
+
+.footer__site-links li + li {
+				margin-left: 5em
+		}
+	}
 
 .footer--uppercase { text-transform: uppercase; }
 
@@ -429,8 +468,56 @@ h1,h2,h3,h4,h5,h6 { font-weight: 500;  }
 		padding: 20px;
 	}
 
-.main-content__header {}
+.main-content__header {
+		font-size: 1.3em;
+	}
+
+@media (min-width: 1024px) {
+
+.main-content__header {
+			font-size: 1.5em
+	}
+	}
 
 .main-content__text {
 		line-height: 2;
 	}
+
+.navigation {
+	margin-bottom: 20px;
+}
+
+.navigation__nav-list {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		text-align: center;
+	}
+
+.navigation li {
+		display: inherit;
+		padding: 5px;
+	}
+
+@media (min-width: 700px) {
+
+.navigation li {
+			display: inline
+	}
+	}
+
+.navigation li + li {
+		margin-left: 0;
+	}
+
+@media (min-width: 700px) {
+
+.navigation li + li {
+			margin-left: 5em
+	}
+	}
+
+.header {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
