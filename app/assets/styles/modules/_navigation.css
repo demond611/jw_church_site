@@ -24,4 +24,7 @@
 			margin-left: 5em;
 		}
 	}
+
+	&--uppercase { text-transform: uppercase; }
+	
 }
